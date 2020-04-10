@@ -1,0 +1,6 @@
+#recipe-note {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url('lab-assets/list-bg.png');
+}
