@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Chocolate Pizza</title>
 </head>
 
-<body>
-    <div id='container'>
+
+
+<body id="page-container">
     <header>
         <div id='header-left'>
             <div id='logo-div'><img src='../lab-assets/logo.png' id='logo'></div>
@@ -35,9 +36,11 @@
     <div class='bar' id='bar-1'>
 
     </div>
-    <main id='row-2'>
-        <h1 id='choco-pizza-title'>Chocolate Pizza</h1>
-        <p>Posted On 15 Dec 2013 / Desserts</p>
+
+    <main id="content-wrap">
+        <h1>CHocolate Pizza</h1>
+        <p>Posted On 15 DEc 2013 / Desserts</p>
+
         <img src='./lab-assets/choco-pizza.png' id='choco-pizza'/>
         <p>
             For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and 
@@ -61,22 +64,23 @@
             <li>1/2 cup brown sugar</li>
             <li>2-4 tbsp water</li>
             <li>1 1/2 cups heavy cream</li>
-            <li>4/3 granulated sugar</li>
-            <li>2 egg yolks</li>
+            <li class="crossed">4/3 granulated sugar</li>
+            <li class="crossed">2 egg yolks</li>
             <li>1 lemon, juiced</li>
             <li>2 tbsp butter</li>
             <li>1 cup honey roasted pecans, roughley chopped</li>
         </ul>
         <div class="bar" id="bottom-bar"></div>
-        <section>
-            <img src="lab-assets/van-pic.png" alt="van-pic">
+        <section id="van-container">
+            <img src="lab-assets/van-pic.png" alt="van-pic" id="van-pic">
             <h3>Vanessa Stevenson</h3>
-            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-            <button id="share-recipe">Share Button</button>
+            <p id="van-info">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+            <button id="share-button">Share Recipe</button>
         </section>
     </main>
-    <footer id='row-3'>
-        <div id="bottom-fork-icon"></div>
+    <footer id="footer">
+        <div id="straight-bar"></div>
+        <img src="lab-assets/small-logo.png" id="bottom-fork-icon"/>
         <div id="bottom-text">Delicious &copy; 2013 &middot; All Rights Reserved.
             <br>
             Proudly published with Ghost.
