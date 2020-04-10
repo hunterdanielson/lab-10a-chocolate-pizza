@@ -1,0 +1,71 @@
+#container{
+    margin: auto;
+}
+
+#logo-div {
+    float: left;
+    margin-right: 10px;
+}
+#logo {
+    height: 2em;
+    width: 2em;
+    float: left
+}
+
+#header-left, #header-right {
+    display: flex;
+    float: left;
+    height: 100px;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+
+.header-img {
+    margin-left: 3px;
+}
+
+
+#clearing-block {
+    padding: 10px;
+}
+
+
+
+#bar-1 {
+    overflow: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed #000; 
+    width: 99%; 
+    margin: auto; 
+    clear: both;
+    margin-bottom: 5%;
+    margin-top: 50px;
+    
+}
+
+#choco-pizza-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#header-text {
+    margin-bottom: 50px;
+}
+#title {
+    font-family: cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+#sub-title {
+    margin-top: 0px;
+    font-family: monospace;
+    font-size: 10px;
+
+}
+
+#choco-pizza {
+    display: flex;
+    margin: auto;
+}

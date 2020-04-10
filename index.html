@@ -10,32 +10,37 @@
 </head>
 
 <body>
+    <div id='container'>
     <header>
-        <div id=header-left>
-            <img src='../lab-assets/logo.png' id='logo'`/>
-            <h1>Delicious</h1>
-            <h2>THE BEST FOOD BLOG ON THE WEB</h2>
+        <div id='header-left'>
+            <div id='logo-div'><img src='../lab-assets/logo.png' id='logo'></div>
+            <div id='header-text'>
+            <h1 id='title'>Delicious</h1> 
+            <p id='sub-title'>THE BEST FOOD BLOG ON THE WEB</p>
+            </div>
         </div>
         <div id='header-right'>
-            <img src='./lab-assets/fb-icon.png' id='fb-icon'/>
-            <img src='./lab-assets/twit-icon.png' id='twit-icon'/>
-            <img src='./lab-assets/gp-icon.png' id='gp-icon'/>
-            <img src='./lab-assets/insta-icon.png' id='insta-icon'/>
-            <img src='./lab-assets/flic-img.png' id='flic-img'/>
-            <img src='./lab-assets/pint-icon.png' id='pint-icon'/>
-            <img src='./lab-assets/rss-icon.png' id='rss-icon'/>
-            <img src='./lab-assets/mail-icon.png' id='mail-icon'/>
+            <div id='images'>
+            <img src='./lab-assets/fb-icon.png' class = 'header-img' id='fb-icon'/>
+            <img src='./lab-assets/twit-icon.png' class = 'header-img' id='twit-icon'/>
+            <img src='./lab-assets/gp-icon.png' class='header-img' id='gp-icon'/>
+            <img src='./lab-assets/insta-icon.png' class='header-img' id='insta-icon'/>
+            <img src='./lab-assets/flic-icon.png' class='header-img' id='flic-img'/>
+            <img src='./lab-assets/pint-icon.png' class='header-img' id='pint-icon'/>
+            <img src='./lab-assets/rss-icon.png' class='header-img' id='rss-icon'/>
+            <img src='./lab-assets/mail-icon.png' class='header-img' id='mail-icon'/>
+            </div>
         </div>
-
     </header>
     <div class='bar' id='bar-1'>
 
     </div>
-    <main>
-        <h1>CHocolate Pizza</h1>
-        <p>Posted On 15 DEc 2013 / Desserts</p>
+    <main id='row-2'>
+        <h1 id='choco-pizza-title'>Chocolate Pizza</h1>
+        <p>Posted On 15 Dec 2013 / Desserts</p>
         <img src='./lab-assets/choco-pizza.png' id='choco-pizza'/>
-        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and 
+        <p>
+            For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and 
             stir to dissolve. Ualve all of the figs and toss in the saucepan with water and lemon juice. 
             Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with 
             one or two stirs, set aside and let cool completly. <br>
@@ -70,7 +75,7 @@
             <button id="share-recipe">Share Button</button>
         </section>
     </main>
-    <footer>
+    <footer id='row-3'>
         <div id="bottom-fork-icon"></div>
         <div id="bottom-text">Delicious &copy; 2013 &middot; All Rights Reserved.
             <br>
@@ -78,6 +83,7 @@
         </div>
     </footer>
     <script type="module" src="app.js"></script>
+</div>
 </body>
 
 </html>
