@@ -32,6 +32,7 @@ li.crossed {
 
 #van-info {
     float: left;
+    color: darkslategray;
 }
 
 #share-button {
@@ -40,6 +41,7 @@ li.crossed {
     border: none;
     color: white;
     padding: 15px 32px ;
+    font-size: 14pt;
     text-align: center;
 }
 
@@ -50,12 +52,34 @@ li.crossed {
     height: 2.5rem;
     text-align: center;
 }
+
+#bottom-text {
+    color: lightgray;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
 }
+
 #content-wrap {
     padding-bottom: 10rem;
 }
 
-.bar { border: 1px dashed #000; height: 20px; width: 98%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
+.bar { 
+    border: 1px dashed #000; 
+    height: 20px; 
+    width: 98%; 
+    margin: auto; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+}
+
+#straight-bar { 
+    position: absolute;
+    top: 15px;
+    border: 1px solid lightgray;  
+    width: 98%; 
+    margin: auto; 
+    z-index: -1;
+}
