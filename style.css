@@ -4,8 +4,10 @@
     margin-right: 10px;
 }
 #logo {
-    height: 2em;
-    width: 2em;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 1em;
+    width: 1em;
     float: left
 }
 
@@ -24,11 +26,10 @@
 }
 
 #bar-1 {
-    overflow: auto;
+    height: 20px;
     margin: 10px;
-    padding: 10px;
     border: 1px dashed #000; 
-    width: 99%; 
+    width: 90%; 
     margin: auto; 
     clear: both;
     margin-bottom: 5%;
@@ -37,15 +38,17 @@
 
 #choco-pizza-title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
 }
 
-#header-text {
-    margin-bottom: 50px;
+#choco-pizza-sub {
+    margin-top: 0px;
 }
+
 #title {
     font-family: cursive;
-    font-size: 4em;
-    margin-bottom: 0px;
+    font-size: 3em;
+    
 }
 #sub-title {
     margin-top: 0px;
@@ -55,8 +58,9 @@
 }
 
 #choco-pizza {
-    display: flex;
+    width: 100%;
     margin: auto;
+
 
 }
 
@@ -94,23 +98,23 @@ li.crossed {
 #van-info {
     float: left;
     color: darkslategray;
+    width: 50%;
+
 }
 
 #share-button {
-    float: right;
+    float: left;
     background-color: #d9734e;
     border: none;
     color: white;
     padding: 15px 32px ;
     font-size: 14pt;
     text-align: center;
+   
 }
 
 #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+
     text-align: center;
 }
 
@@ -118,29 +122,35 @@ li.crossed {
     color: lightgray;
 }
 
-#page-container {
-    position: relative;
+#container {
+    width: 90%;
     min-height: 100vh;
+    border: 2px solid black;
+    margin: auto;
+
 }
 
 #content-wrap {
     padding-bottom: 10rem;
+    width: 90%;
+    margin: auto;
 }
 
 .bar { 
     border: 1px dashed #000; 
     height: 20px; 
-    width: 98%; 
+    width: 90%; 
     margin: auto; 
     margin-top: 5%; 
     margin-bottom: 5%; 
 }
 
 #straight-bar { 
-    position: absolute;
-    top: 15px;
+    display: flex;
+    position: relative;
+    bottom: 20px;
     border: 1px solid lightgray;  
-    width: 98%; 
+    width: 90%; 
     margin: auto; 
     z-index: -1;
 

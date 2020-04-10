@@ -11,13 +11,13 @@
 
 
 
-<body id="page-container">
+<body>
+    <div id='container'>
     <header>
         <div id='header-left'>
-            <div id='logo-div'><img src='../lab-assets/logo.png' id='logo'></div>
+            
             <div id='header-text'>
-            <h1 id='title'>Delicious</h1> 
-            <p id='sub-title'>THE BEST FOOD BLOG ON THE WEB</p>
+            <h1 id='title'><img src='../lab-assets/logo.png' id='logo'>Delicious <p id='sub-title'>THE BEST FOOD BLOG ON THE WEB</p></h1> 
             </div>
         </div>
         <div id='header-right'>
@@ -38,11 +38,11 @@
     </div>
 
     <main id="content-wrap">
-        <h1>CHocolate Pizza</h1>
-        <p>Posted On 15 DEc 2013 / Desserts</p>
+        <h1 id='choco-pizza-title'>Chocolate Pizza</h1>
+        <p id='choco-pizza-sub'>Posted On 15 Dec 2013 / Desserts</p>
 
         <img src='./lab-assets/choco-pizza.png' id='choco-pizza'/>
-        <p>
+        <p id='description'>
             For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and 
             stir to dissolve. Ualve all of the figs and toss in the saucepan with water and lemon juice. 
             Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with 
@@ -74,20 +74,23 @@
         <section id="van-container">
             <img src="lab-assets/van-pic.png" alt="van-pic" id="van-pic">
             <h3>Vanessa Stevenson</h3>
+            <div>
             <p id="van-info">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
             <button id="share-button">Share Recipe</button>
+            </div>
         </section>
     </main>
-    <footer id="footer">
-        <div id="straight-bar"></div>
+    <div id="footer">
+    
         <img src="lab-assets/small-logo.png" id="bottom-fork-icon"/>
+        <div id="straight-bar"></div>
         <div id="bottom-text">Delicious &copy; 2013 &middot; All Rights Reserved.
             <br>
             Proudly published with Ghost.
         </div>
-    </footer>
-    <script type="module" src="app.js"></script>
+    </div>
 </div>
+<script type="module" src="app.js"></script>
 </body>
 
 </html>
