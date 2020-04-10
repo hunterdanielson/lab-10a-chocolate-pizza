@@ -1,6 +1,25 @@
 #recipe-note {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-image: url('lab-assets/list-bg.png');
+    background-repeat: repeat-y;
+    background-size: 1200px 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+li:before{
+    content: "\2610";
+    margin-right:5px;
+}
+
+li.crossed:before {
+    content: "\2611";
+    margin-right:5px;
+}
+
+li.crossed {
+    text-decoration: line-through;
 }
