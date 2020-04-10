@@ -1,3 +1,4 @@
+
 #recipe-note {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,3 +24,38 @@ li.crossed:before {
 li.crossed {
     text-decoration: line-through;
 }
+
+#van-pic {
+    float: left;
+    padding: 10px;
+}
+
+#van-info {
+    float: left;
+}
+
+#share-button {
+    float: right;
+    background-color: #d9734e;
+    border: none;
+    color: white;
+    padding: 15px 32px ;
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 10rem;
+}
+
+.bar { border: 1px dashed #000; height: 20px; width: 98%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
